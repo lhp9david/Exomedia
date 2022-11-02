@@ -1,16 +1,14 @@
-
+div {
+    margin: auto;
+    text-align: center;
+}
 @media screen and (orientation:portrait) {
-    body {
-        background-image: url(img/angel.png);
-        background-size: cover;
-        background-repeat: no-repeat;
- 
+    .backgroundDevil {
+        display: none;
     }
 } 
 @media screen and (orientation:landscape) {
-    body{
-    background-image: url(img/devil.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    .backgroundAngel {
+        display: none;
     }
 }
