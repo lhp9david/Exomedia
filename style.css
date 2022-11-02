@@ -1,4 +1,6 @@
+
 div {
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -6,9 +8,13 @@ div {
     .backgroundDevil {
         display: none;
     }
+
 } 
 @media screen and (orientation:landscape) {
     .backgroundAngel {
         display: none;
+    }
+    body {
+        background-color: black;
     }
 }
