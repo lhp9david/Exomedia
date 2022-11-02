@@ -1,9 +1,14 @@
 
-div {
-    width: 100%;
-    margin: auto;
+div { 
     text-align: center;
 }
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
 @media screen and (orientation:portrait) {
     .backgroundDevil {
         display: none;
@@ -11,6 +16,7 @@ div {
     body{
         background-image: url(img/ciel.jpg);
         background-size: cover;
+        background-repeat: no-repeat;
     }
 
 } 
