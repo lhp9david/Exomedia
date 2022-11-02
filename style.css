@@ -8,6 +8,10 @@ div {
     .backgroundDevil {
         display: none;
     }
+    body{
+        background-image: url(img/ciel.jpg);
+        background-size: cover;
+    }
 
 } 
 @media screen and (orientation:landscape) {
